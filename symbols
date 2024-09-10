@@ -1,197 +1,49 @@
-libkcm_firewall_core.so:SystemdJob::qt_metacall(QMetaObject::Call, int, void**)
-libkcm_firewall_core.so:SystemdJob::qt_metacast(char const*)
-libkcm_firewall_core.so:SystemdJob::systemdUnit(QList<QVariant>, SYSTEMD::actions)
-libkcm_firewall_core.so:SystemdJob::reloadSystemd()
-libkcm_firewall_core.so:SystemdJob::systemdAction(SYSTEMD::actions)
-libkcm_firewall_core.so:SystemdJob::start()
-libkcm_firewall_core.so:SystemdJob::SystemdJob(SYSTEMD::actions const&, QString const&, bool)
-libkcm_firewall_core.so:SystemdJob::SystemdJob(SYSTEMD::actions const&, QString const&, bool)
-libkcm_firewall_core.so:SystemdJob::~SystemdJob()
-libkcm_firewall_core.so:SystemdJob::~SystemdJob()
-libkcm_firewall_core.so:SystemdJob::~SystemdJob()
-libkcm_firewall_core.so:IPValidator::qt_metacall(QMetaObject::Call, int, void**)
-libkcm_firewall_core.so:IPValidator::qt_metacast(char const*)
-libkcm_firewall_core.so:IPValidator::setIPVersion(IPValidator::IPVersion)
-libkcm_firewall_core.so:IPValidator::ipVersionChanged(IPValidator::IPVersion)
-libkcm_firewall_core.so:IPValidator::IPValidator(QObject*)
-libkcm_firewall_core.so:IPValidator::IPValidator(QObject*)
-libkcm_firewall_core.so:LogListModel::busyChanged()
-libkcm_firewall_core.so:LogListModel::qt_metacall(QMetaObject::Call, int, void**)
-libkcm_firewall_core.so:LogListModel::qt_metacast(char const*)
-libkcm_firewall_core.so:LogListModel::countChanged()
-libkcm_firewall_core.so:LogListModel::appendLogData(QList<LogData> const&)
-libkcm_firewall_core.so:LogListModel::showErrorMessage(QString const&)
-libkcm_firewall_core.so:LogListModel::setBusy(bool)
-libkcm_firewall_core.so:LogListModel::LogListModel(QObject*)
-libkcm_firewall_core.so:LogListModel::LogListModel(QObject*)
-libkcm_firewall_core.so:RuleListModel::setProfile(Profile const&)
-libkcm_firewall_core.so:RuleListModel::qt_metacall(QMetaObject::Call, int, void**)
-libkcm_firewall_core.so:RuleListModel::qt_metacast(char const*)
-libkcm_firewall_core.so:RuleListModel::move(int, int)
-libkcm_firewall_core.so:RuleListModel::RuleListModel(QObject*)
-libkcm_firewall_core.so:RuleListModel::RuleListModel(QObject*)
-libkcm_firewall_core.so:FirewallClient::removeRule(int)
-libkcm_firewall_core.so:FirewallClient::setBackend(QList<QString> const&)
-libkcm_firewall_core.so:FirewallClient::setEnabled(bool)
-libkcm_firewall_core.so:FirewallClient::updateRule(Rule*)
-libkcm_firewall_core.so:FirewallClient::isTcpAndUdp(int)
-libkcm_firewall_core.so:FirewallClient::qt_metacall(QMetaObject::Call, int, void**)
-libkcm_firewall_core.so:FirewallClient::qt_metacast(char const*)
-libkcm_firewall_core.so:FirewallClient::queryStatus(FirewallClient::DefaultDataBehavior, FirewallClient::ProfilesBehavior)
-libkcm_firewall_core.so:FirewallClient::backendChanged(QString const&)
-libkcm_firewall_core.so:FirewallClient::enabledChanged(bool)
-libkcm_firewall_core.so:FirewallClient::knownProtocols()
-libkcm_firewall_core.so:FirewallClient::indexOfProtocol(QString const&)
-libkcm_firewall_core.so:FirewallClient::knownInterfaces()
-libkcm_firewall_core.so:FirewallClient::showErrorMessage(QString const&)
-libkcm_firewall_core.so:FirewallClient::createRuleFromLog(QString const&, QString const&, QString const&, QString const&, QString const&, QString const&)
-libkcm_firewall_core.so:FirewallClient::knownApplications()
-libkcm_firewall_core.so:FirewallClient::setLogsAutoRefresh(bool)
-libkcm_firewall_core.so:FirewallClient::capabilitiesChanged(QFlags<FirewallClient::Capability> const&)
-libkcm_firewall_core.so:FirewallClient::hasExecutableChanged(bool)
-libkcm_firewall_core.so:FirewallClient::logsAutoRefreshChanged(bool)
-libkcm_firewall_core.so:FirewallClient::createRuleFromConnection(QString const&, QString const&, QString const&, QString const&)
-libkcm_firewall_core.so:FirewallClient::setDefaultIncomingPolicy(QString const&)
-libkcm_firewall_core.so:FirewallClient::setDefaultOutgoingPolicy(QString const&)
-libkcm_firewall_core.so:FirewallClient::defaultIncomingPolicyChanged(QString const&)
-libkcm_firewall_core.so:FirewallClient::defaultOutgoingPolicyChanged(QString const&)
-libkcm_firewall_core.so:FirewallClient::save()
-libkcm_firewall_core.so:FirewallClient::ruleAt(int)
+libkcm_firewall_core.so:FirewallClient::FirewallClient(QObject*)
 libkcm_firewall_core.so:FirewallClient::addRule(Rule*)
+libkcm_firewall_core.so:FirewallClient::enabledChanged(bool)
+libkcm_firewall_core.so:FirewallClient::hasExecutableChanged(bool)
+libkcm_firewall_core.so:FirewallClient::isTcpAndUdp(int)
+libkcm_firewall_core.so:FirewallClient::knownApplications()
+libkcm_firewall_core.so:FirewallClient::knownInterfaces()
+libkcm_firewall_core.so:FirewallClient::knownProtocols()
+libkcm_firewall_core.so:FirewallClient::logsAutoRefreshChanged(bool)
 libkcm_firewall_core.so:FirewallClient::refresh()
-libkcm_firewall_core.so:FirewallClient::moveRule(int, int)
-libkcm_firewall_core.so:FirewallClient::FirewallClient(QObject*)
-libkcm_firewall_core.so:FirewallClient::FirewallClient(QObject*)
+libkcm_firewall_core.so:FirewallClient::removeRule(int)
+libkcm_firewall_core.so:FirewallClient::ruleAt(int)
+libkcm_firewall_core.so:FirewallClient::save()
+libkcm_firewall_core.so:FirewallClient::setEnabled(bool)
+libkcm_firewall_core.so:FirewallClient::setLogsAutoRefresh(bool)
+libkcm_firewall_core.so:FirewallClient::updateRule(Rule*)
 libkcm_firewall_core.so:FirewallClient::~FirewallClient()
-libkcm_firewall_core.so:FirewallClient::~FirewallClient()
-libkcm_firewall_core.so:FirewallClient::~FirewallClient()
-libkcm_firewall_core.so:IFirewallClientBackend::qt_metacall(QMetaObject::Call, int, void**)
-libkcm_firewall_core.so:IFirewallClientBackend::qt_metacast(char const*)
-libkcm_firewall_core.so:IFirewallClientBackend::setProfiles(QList<Entry> const&)
-libkcm_firewall_core.so:IFirewallClientBackend::profileByName(QString const&)
 libkcm_firewall_core.so:IFirewallClientBackend::enabledChanged(bool)
-libkcm_firewall_core.so:IFirewallClientBackend::queryExecutable(QString const&)
-libkcm_firewall_core.so:IFirewallClientBackend::showErrorMessage(QString const&)
 libkcm_firewall_core.so:IFirewallClientBackend::hasExecutableChanged(bool)
 libkcm_firewall_core.so:IFirewallClientBackend::logsAutoRefreshChanged(bool)
-libkcm_firewall_core.so:IFirewallClientBackend::defaultIncomingPolicyChanged(QString const&)
-libkcm_firewall_core.so:IFirewallClientBackend::defaultOutgoingPolicyChanged(QString const&)
 libkcm_firewall_core.so:IFirewallClientBackend::save()
-libkcm_firewall_core.so:IFirewallClientBackend::IFirewallClientBackend(QObject*, QList<QVariant> const&)
-libkcm_firewall_core.so:IFirewallClientBackend::IFirewallClientBackend(QObject*, QList<QVariant> const&)
-libkcm_firewall_core.so:Rule::setLogging(QString const&)
-libkcm_firewall_core.so:Rule::ipv6Changed(bool)
-libkcm_firewall_core.so:Rule::qt_metacall(QMetaObject::Call, int, void**)
-libkcm_firewall_core.so:Rule::qt_metacast(char const*)
-libkcm_firewall_core.so:Rule::servicePort(QString const&)
-libkcm_firewall_core.so:Rule::setIncoming(bool)
-libkcm_firewall_core.so:Rule::setPosition(int)
-libkcm_firewall_core.so:Rule::setProtocol(int)
-libkcm_firewall_core.so:Rule::setInterface(int)
-libkcm_firewall_core.so:Rule::policyChanged(QString const&)
-libkcm_firewall_core.so:Rule::setSimplified(bool)
-libkcm_firewall_core.so:Rule::setSourcePort(QString const&)
-libkcm_firewall_core.so:Rule::loggingChanged(QString const&)
-libkcm_firewall_core.so:Rule::protocolSuffix(int, QString const&)
+libkcm_firewall_core.so:IPValidator::IPValidator(QObject*)
+libkcm_firewall_core.so:IPValidator::ipVersionChanged(IPValidator::IPVersion)
+libkcm_firewall_core.so:IPValidator::setIPVersion(IPValidator::IPVersion)
+libkcm_firewall_core.so:LogListModel::LogListModel(QObject*)
+libkcm_firewall_core.so:LogListModel::busyChanged()
+libkcm_firewall_core.so:LogListModel::countChanged()
+libkcm_firewall_core.so:LogListModel::setBusy(bool)
+libkcm_firewall_core.so:Profile::load(QIODevice*)
+libkcm_firewall_core.so:Profile::setEnabled(bool)
+libkcm_firewall_core.so:Rule::Rule()
 libkcm_firewall_core.so:Rule::incomingChanged(bool)
+libkcm_firewall_core.so:Rule::interfaceChanged(int)
+libkcm_firewall_core.so:Rule::ipv6Changed(bool)
 libkcm_firewall_core.so:Rule::positionChanged(int)
 libkcm_firewall_core.so:Rule::protocolChanged(int)
-libkcm_firewall_core.so:Rule::directionChanged(QString const&)
-libkcm_firewall_core.so:Rule::interfaceChanged(int)
-libkcm_firewall_core.so:Rule::setSourceAddress(QString const&)
-libkcm_firewall_core.so:Rule::simplifiedChanged(bool)
-libkcm_firewall_core.so:Rule::sourcePortChanged(QString const&)
-libkcm_firewall_core.so:Rule::setDestinationPort(QString const&)
-libkcm_firewall_core.so:Rule::setSourceApplication(QString const&)
-libkcm_firewall_core.so:Rule::sourceAddressChanged(QString const&)
-libkcm_firewall_core.so:Rule::setDestinationAddress(QString const&)
-libkcm_firewall_core.so:Rule::destinationPortChanged(QString const&)
-libkcm_firewall_core.so:Rule::sourceApplicationChanged(QString const&)
-libkcm_firewall_core.so:Rule::destinationAddressChanged(QString const&)
-libkcm_firewall_core.so:Rule::setV6(bool)
-libkcm_firewall_core.so:Rule::modify(QString const&, QString const&, QString const&, QString const&, int, bool)
+libkcm_firewall_core.so:Rule::setIncoming(bool)
+libkcm_firewall_core.so:Rule::setInterface(int)
 libkcm_firewall_core.so:Rule::setIpv6(bool)
-libkcm_firewall_core.so:Rule::setPolicy(QString const&)
-libkcm_firewall_core.so:Rule::Rule()
-libkcm_firewall_core.so:Rule::Rule()
-libkcm_firewall_core.so:Entry::Entry(QString const&, QString const&)
-libkcm_firewall_core.so:Entry::Entry(QString const&, QString const&)
-libkcm_firewall_core.so:Types::toLogLevel(QString const&)
-libkcm_firewall_core.so:Types::toPredefinedPort(QString const&)
-libkcm_firewall_core.so:Types::toPolicy(QString const&)
-libkcm_firewall_core.so:Types::toString(Types::PredefinedPort, bool)
-libkcm_firewall_core.so:Types::toString(Types::Policy, bool)
-libkcm_firewall_core.so:Types::toString(Types::Logging, bool)
-libkcm_firewall_core.so:Types::toString(Types::LogLevel, bool)
-libkcm_firewall_core.so:Types::toLogging(QString const&)
-libkcm_firewall_core.so:Profile::setEnabled(bool)
-libkcm_firewall_core.so:Profile::setDefaultIncomingPolicy(QString const&)
-libkcm_firewall_core.so:Profile::setDefaultOutgoingPolicy(QString const&)
-libkcm_firewall_core.so:Profile::load(QIODevice*)
-libkcm_firewall_core.so:Profile::setArgs(QMap<QString, QVariant> const&)
-libkcm_firewall_core.so:Profile::setRules(QList<Rule*> const&)
-libkcm_firewall_core.so:Profile::Profile(QByteArray&, bool)
-libkcm_firewall_core.so:Profile::Profile(QFile&, bool)
-libkcm_firewall_core.so:Profile::Profile(QList<Rule*> const&, QMap<QString, QVariant> const&, bool)
-libkcm_firewall_core.so:Profile::Profile(QByteArray&, bool)
-libkcm_firewall_core.so:Profile::Profile(QFile&, bool)
-libkcm_firewall_core.so:Profile::Profile(QList<Rule*> const&, QMap<QString, QVariant> const&, bool)
-libkcm_firewall_core.so:SystemdJob::metaObject() const
-libkcm_firewall_core.so:IPValidator::metaObject() const
-libkcm_firewall_core.so:IPValidator::validate(QString&, int&) const
-libkcm_firewall_core.so:IPValidator::ipVersion() const
-libkcm_firewall_core.so:LogListModel::headerData(int, Qt::Orientation, int) const
-libkcm_firewall_core.so:LogListModel::metaObject() const
-libkcm_firewall_core.so:LogListModel::columnCount(QModelIndex const&) const
-libkcm_firewall_core.so:LogListModel::busy() const
-libkcm_firewall_core.so:LogListModel::data(QModelIndex const&, int) const
-libkcm_firewall_core.so:LogListModel::rowCount(QModelIndex const&) const
-libkcm_firewall_core.so:RuleListModel::headerData(int, Qt::Orientation, int) const
-libkcm_firewall_core.so:RuleListModel::metaObject() const
-libkcm_firewall_core.so:RuleListModel::columnCount(QModelIndex const&) const
-libkcm_firewall_core.so:RuleListModel::data(QModelIndex const&, int) const
-libkcm_firewall_core.so:RuleListModel::rowCount(QModelIndex const&) const
-libkcm_firewall_core.so:FirewallClient::metaObject() const
-libkcm_firewall_core.so:FirewallClient::rulesModel() const
-libkcm_firewall_core.so:FirewallClient::capabilities() const
-libkcm_firewall_core.so:FirewallClient::hasExecutable() const
-libkcm_firewall_core.so:FirewallClient::logsAutoRefresh() const
-libkcm_firewall_core.so:FirewallClient::supportsRuleUpdate() const
-libkcm_firewall_core.so:FirewallClient::defaultIncomingPolicy() const
-libkcm_firewall_core.so:FirewallClient::defaultOutgoingPolicy() const
-libkcm_firewall_core.so:FirewallClient::name() const
-libkcm_firewall_core.so:FirewallClient::backend() const
-libkcm_firewall_core.so:FirewallClient::enabled() const
-libkcm_firewall_core.so:FirewallClient::version() const
-libkcm_firewall_core.so:FirewallClient::logsModel() const
-libkcm_firewall_core.so:IFirewallClientBackend::metaObject() const
-libkcm_firewall_core.so:IFirewallClientBackend::capabilities() const
-libkcm_firewall_core.so:IFirewallClientBackend::hasExecutable() const
-libkcm_firewall_core.so:IFirewallClientBackend::executablePath() const
-libkcm_firewall_core.so:Rule::loggingStr() const
-libkcm_firewall_core.so:Rule::metaObject() const
-libkcm_firewall_core.so:Rule::simplified() const
-libkcm_firewall_core.so:Rule::sourcePort() const
-libkcm_firewall_core.so:Rule::interfaceIn() const
-libkcm_firewall_core.so:Rule::interfaceOut() const
-libkcm_firewall_core.so:Rule::interfaceStr() const
-libkcm_firewall_core.so:Rule::sourceAddress() const
-libkcm_firewall_core.so:Rule::destinationPort() const
-libkcm_firewall_core.so:Rule::sourceApplication() const
-libkcm_firewall_core.so:Rule::destinationAddress() const
-libkcm_firewall_core.so:Rule::destinationApplication() const
-libkcm_firewall_core.so:Rule::ipv6() const
-libkcm_firewall_core.so:Rule::toStr() const
-libkcm_firewall_core.so:Rule::action() const
-libkcm_firewall_core.so:Rule::policy() const
-libkcm_firewall_core.so:Rule::fromStr() const
-libkcm_firewall_core.so:Rule::ipV6Str() const
-libkcm_firewall_core.so:Rule::logging() const
-libkcm_firewall_core.so:Rule::incoming() const
-libkcm_firewall_core.so:Rule::position() const
-libkcm_firewall_core.so:Rule::protocol() const
-libkcm_firewall_core.so:Rule::actionStr() const
-libkcm_firewall_core.so:Rule::interface() const
-libkcm_firewall_core.so:Profile::modulesXml() const
-libkcm_firewall_core.so:Profile::defaultsXml() const
-libkcm_firewall_core.so:Profile::toXml() const
+libkcm_firewall_core.so:Rule::setPosition(int)
+libkcm_firewall_core.so:Rule::setProtocol(int)
+libkcm_firewall_core.so:Rule::setSimplified(bool)
+libkcm_firewall_core.so:Rule::setV6(bool)
+libkcm_firewall_core.so:Rule::simplifiedChanged(bool)
+libkcm_firewall_core.so:RuleListModel::RuleListModel(QObject*)
+libkcm_firewall_core.so:SystemdJob::reloadSystemd()
+libkcm_firewall_core.so:SystemdJob::start()
+libkcm_firewall_core.so:SystemdJob::systemdAction(SYSTEMD::actions)
+libkcm_firewall_core.so:SystemdJob::~SystemdJob()
