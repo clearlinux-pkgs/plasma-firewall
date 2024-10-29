@@ -9,7 +9,7 @@
 #
 Name     : plasma-firewall
 Version  : 6.2.1
-Release  : 14
+Release  : 15
 URL      : https://download.kde.org/stable/plasma/6.2.1/plasma-firewall-6.2.1.tar.xz
 Source0  : https://download.kde.org/stable/plasma/6.2.1/plasma-firewall-6.2.1.tar.xz
 Source1  : https://download.kde.org/stable/plasma/6.2.1/plasma-firewall-6.2.1.tar.xz.sig
